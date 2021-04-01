@@ -41,6 +41,12 @@ def barandeh():
     elif game[0][2]=='x' and game[1][2]=='x' and game[2][2]=='x':
         print('player1 wins')
         elapsed_time()
+    elif game[0][2]=='x' and game[1][1]=='x' and game[2][0]=='x':
+        print('player1 wins')
+        elapsed_time()
+    elif game[0][0]=='x' and game[1][1]=='x' and game[2][2]=='x':
+        print('player1 wins')
+        elapsed_time()
     elif game[0][0] == 'o' and game[0][1] == 'o' and game[0][2] == 'o':
         print('player2 wins')
         elapsed_time()
@@ -57,6 +63,12 @@ def barandeh():
         print('player2 wins')
         elapsed_time()
     elif game[0][2] == 'o' and game[1][2] == 'o' and game[2][2]=='o':
+        print('player2 wins')
+        elapsed_time()
+    elif game[0][2] == 'o' and game[1][1] == 'o' and game[2][0] == '0':
+        print('player2 wins')
+        elapsed_time()
+    elif game[0][0] == 'o' and game[1][1] == 'o' and game[2][2] == 'o':
         print('player2 wins')
         elapsed_time()
 
